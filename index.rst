@@ -10,6 +10,13 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   
+   objects
+   branching
+   remote
+   staging
+   workflows
+   aliases
 
 
 
