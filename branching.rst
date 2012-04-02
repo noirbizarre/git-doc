@@ -1,20 +1,26 @@
 Branching and merging
 =====================
 
-.. dia:: diagrams/git-branch-create.dia
+.. figure:: diagrams/git-branch-create.svg
    :height: 250px
+   :align: center
    
-.. dia:: diagrams/git-branch-advance.dia
+.. figure:: diagrams/git-branch-advance.svg
    :height: 250px
+   :align: center
    
-.. dia:: diagrams/git-branch-advance-2.dia
+.. figure:: diagrams/git-branch-advance-2.svg
    :height: 250px
+   :align: center
    
-.. dia:: diagrams/git-branch-diverge.dia
+.. figure:: diagrams/git-branch-diverge.svg
    :height: 250px
+   :align: center
    
-.. dia:: diagrams/git-branch-merge.dia
+.. figure:: diagrams/git-branch-merge.svg
    :height: 250px
+   :align: center
    
-.. dia:: diagrams/git-branch-rebase.dia
+.. figure:: diagrams/git-branch-rebase.svg
    :height: 250px
+   :align: center

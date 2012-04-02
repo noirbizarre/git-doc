@@ -3,14 +3,18 @@ Working with remote repositories
 
 Working with remote repositories is basically the same as working with branches.
 
-.. dia:: diagrams/git-flows.dia
+.. figure:: diagrams/git-flows.svg
    :width: 600px
+   :align: center
 
-.. dia:: diagrams/git-remote.dia
+.. figure:: diagrams/git-remote.svg
    :height: 250px
+   :align: center
    
-.. dia:: diagrams/git-branch-diverge-remote.dia
+.. figure:: diagrams/git-branch-diverge-remote.svg
    :height: 250px
+   :align: center
    
-.. dia:: diagrams/git-branch-diverge-remote-advance.dia
+.. figure:: diagrams/git-branch-diverge-remote-advance.svg
    :height: 250px
+   :align: center
