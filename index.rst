@@ -7,6 +7,13 @@ GIT Illustrated Cheatsheet
 GIT Model
 =========
 
+.. figure:: diagrams/svg/object-overview.svg
+   :align: center
+   :class: centered
+   :width: 100%
+   
+
+
 Object & SHA1
 -------------
 
@@ -22,6 +29,11 @@ Object & SHA1
 Blob
 ----
 
+.. figure:: diagrams/svg/object-blob.svg
+   :align: center
+   :class: centered
+   :width: 250px
+
 - Used to store file data
 - Same content = same SHA1 = same blob
 - See it as a file
@@ -29,11 +41,21 @@ Blob
 Tree
 ----
 
+.. figure:: diagrams/svg/object-tree.svg
+   :align: center
+   :class: centered
+   :width: 250px
+
 - Associate names to blobs and other trees
 - See it as a directory
 
 Commit
 ------
+
+.. figure:: diagrams/svg/object-commit.svg
+   :align: center
+   :class: centered
+   :width: 250px
 
 - Used to snapshot a tree state
 - Has **tree**, **parent(s)**, **author**, **commiter** and **comment** attributes
@@ -44,6 +66,11 @@ Commit
 Tags
 ----
 
+.. figure:: diagrams/svg/object-tag.svg
+   :align: center
+   :class: centered
+   :width: 250px
+
 - Reference an object
 - Has **object**, **type**, **tagger** and **comment** attributes.
 - Not used for lightweight tags
@@ -51,6 +78,11 @@ Tags
 
 Branch
 ------
+
+.. figure:: diagrams/svg/object-branch.svg
+   :align: center
+   :class: centered
+   :height: 250px
 
 - A branch is simply a pointer to a certain commit.
 - A branch is not aa GIT object (no SHA1)
@@ -188,7 +220,7 @@ Create a branch
 Branche diverging
 -----------------
 
-When to branches have different commits:
+Branches diverge when they have different commits:
 
 .. figure:: diagrams/svg/git-branch-diverge.svg
    :height: 300px
@@ -258,7 +290,7 @@ Add a remote
    :class: centered
    
    
-Divergind with remote
+Diverging with remote
 ---------------------
 
 .. figure:: diagrams/svg/git-branch-diverge-remote.svg

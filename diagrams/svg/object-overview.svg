@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="41cm" height="16cm" viewBox="19 19 810 312" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #90ee90" x="20" y="40" width="210.2" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="20" y="40" width="210.2" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="125.1" y="59">Commit</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="125.1" y="74.5">abc123f</text>
+    <rect style="fill: #90ee90" x="20" y="82" width="210.2" height="84"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="20" y="82" width="210.2" height="84"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="96">+tree = aabbcc1</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="112">+author = Axel H.</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="128">+commiter = Axel H.</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="144">+parent = aaabbb5</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="160">+comment = A single commit</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="280" y="40" width="210.2" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="40" width="210.2" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="385.1" y="59">Tree</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="385.1" y="74.5">aabbcc1</text>
+    <rect style="fill: #add8e6" x="280" y="82" width="210.2" height="52"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="82" width="210.2" height="52"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="283" y="96">+aabbccf: blob = file.txt</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="283" y="112">+ddeeff1: blob = other.txt</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="283" y="128">+aabbcc2: tree = folder</text>
+  </g>
+  <g>
+    <rect style="fill: #add8e6" x="280" y="200" width="217.9" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="200" width="217.9" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="388.95" y="219">Tree</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="388.95" y="234.5">aabbcc2</text>
+    <rect style="fill: #add8e6" x="280" y="242" width="217.9" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="242" width="217.9" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="283" y="256">+fffeee1: blob = nested.txt</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="283" y="272">+dddee22: blob = other.txt</text>
+  </g>
+  <g>
+    <rect style="fill: #eded61" x="540" y="20" width="217.9" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="20" width="217.9" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="648.95" y="39">Blob</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="648.95" y="54.5">aabbccf</text>
+    <rect style="fill: #eded61" x="540" y="62" width="217.9" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="62" width="217.9" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="543" y="76">+content = file.txt content</text>
+  </g>
+  <g>
+    <rect style="fill: #eded61" x="540" y="260" width="279.5" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="260" width="279.5" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="679.75" y="279">Blob</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="679.75" y="294.5">dddee22</text>
+    <rect style="fill: #eded61" x="540" y="302" width="279.5" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="302" width="279.5" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="543" y="316">+content = folder/other.txt content</text>
+  </g>
+  <g>
+    <rect style="fill: #eded61" x="540" y="100" width="225.6" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="100" width="225.6" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="652.8" y="119">Blob</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="652.8" y="134.5">ddeeff1</text>
+    <rect style="fill: #eded61" x="540" y="142" width="225.6" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="142" width="225.6" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="543" y="156">+content = other.txt content</text>
+  </g>
+  <g>
+    <rect style="fill: #eded61" x="540" y="180" width="287.2" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="180" width="287.2" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="683.6" y="199">Blob</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="683.6" y="214.5">fffeee1</text>
+    <rect style="fill: #eded61" x="540" y="222" width="287.2" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="540" y="222" width="287.2" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="543" y="236">+content = folder/nested.txt content</text>
+  </g>
+  <g>
+    <rect style="fill: #ffc0cb" x="20" y="220" width="202.5" height="42"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="20" y="220" width="202.5" height="42"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="121.25" y="239">Tag</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="121.25" y="254.5">7755ffe</text>
+    <rect style="fill: #ffc0cb" x="20" y="262" width="202.5" height="68"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="20" y="262" width="202.5" height="68"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="276">+object = abc123f</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="292">+type = commit</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="308">+tagger = Axel H.</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="324">+comment = My tag comment</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="122.503" y1="219.024" x2="123.449" y2="176.74"/>
+    <polygon style="fill: #000000" points="123.617,169.242 128.392,179.351 123.449,176.74 118.395,179.128 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="123.617,169.242 128.392,179.351 123.449,176.74 118.395,179.128 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="230.2" y1="92" x2="269.291" y2="90.7382"/>
+    <polygon style="fill: #000000" points="276.787,90.4962 266.954,95.8162 269.291,90.7382 266.631,85.8214 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="276.787,90.4962 266.954,95.8162 269.291,90.7382 266.631,85.8214 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="490.2" y1="92" x2="533.198" y2="47.9659"/>
+    <polygon style="fill: #000000" points="538.438,42.5998 535.029,53.2478 533.198,47.9659 527.874,46.2614 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="538.438,42.5998 535.029,53.2478 533.198,47.9659 527.874,46.2614 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="490.2" y1="108" x2="530.58" y2="118.541"/>
+    <polygon style="fill: #000000" points="537.836,120.435 526.898,122.747 530.58,118.541 529.424,113.072 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="537.836,120.435 526.898,122.747 530.58,118.541 529.424,113.072 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="497.9" y1="252" x2="533.802" y2="208.508"/>
+    <polygon style="fill: #000000" points="538.577,202.724 536.066,213.619 533.802,208.508 528.354,207.253 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="538.577,202.724 536.066,213.619 533.802,208.508 528.354,207.253 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="497.9" y1="268" x2="530.697" y2="278.127"/>
+    <polygon style="fill: #000000" points="537.863,280.34 526.833,282.167 530.697,278.127 529.784,272.612 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="537.863,280.34 526.833,282.167 530.697,278.127 529.784,272.612 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="386.315" y1="134.982" x2="387.691" y2="189.3"/>
+    <polygon style="fill: #000000" points="387.881,196.798 382.629,186.928 387.691,189.3 392.626,186.674 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="387.881,196.798 382.629,186.928 387.691,189.3 392.626,186.674 "/>
+  </g>
+</svg>
