@@ -268,7 +268,14 @@ Cherry Pick
 Working with remote repositories
 ================================
 
-Working with remote repositories is the same as working with branches.
+- It's only branches
+- Repository synchronization operations::
+
+   $ git fetch
+   $ git push
+   $ git pull  # fetch + merge
+   $ git pull --rebase  # fetch + rebase
+
 
 .. figure:: diagrams/svg/git-flows.svg
    :width: 700px
