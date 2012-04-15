@@ -10,6 +10,5 @@ fi
 
 source $VENV/bin/activate
 pip install -r requirements.pip
-cd doc
 make clean html slides
 deactivate
