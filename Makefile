@@ -10,6 +10,9 @@ BUILDDIR      = _build
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
+MASTER_SLIDE = -D master_doc=slides
+EXCLUDE_INDEX = -D exclude_patterns='index.rst',''
+SLIDEOPTS = $(MASTER_SLIDE) $(EXCLUDE_INDEX)
 ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) .
@@ -151,3 +154,7 @@ doctest:
 	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) $(BUILDDIR)/doctest
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
+
+slides:
+	$(SPHINXBUILD) -b html5slides $(ALLSPHINXOPTS)  $(BUILDDIR)/slides
+	@echo "Build finished. The HTML slides are in $(BUILDDIR)/slides."

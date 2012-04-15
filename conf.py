@@ -26,6 +26,7 @@ import sys, os
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
+    'hieroglyph',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -167,6 +168,7 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'IllustratedGITdoc'
 
+slide_theme = 'single-level'
 
 # -- Options for LaTeX output --------------------------------------------------
 
