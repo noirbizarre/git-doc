@@ -1,3 +1,4 @@
+#!/bin/bash
 VENV=venv
 
 if [ -d "$VENV" ]; then
