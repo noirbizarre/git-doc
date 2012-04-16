@@ -220,7 +220,8 @@ Create a branch
 Branche diverging
 -----------------
 
-Branches diverge when they have different commits:
+Branches diverge when they have different commits
+
 
 .. figure:: diagrams/svg/git-branch-diverge.svg
    :height: 300px
@@ -231,7 +232,7 @@ Branches diverge when they have different commits:
 Merge
 -----
 
-::
+Create a merge commit and keep your branch history::
 
    $ git merge feature
    
@@ -244,7 +245,7 @@ Merge
 Rebase
 ------
 
-::
+Re-apply your commits and keeps your history linear::
 
    $ git rebase master
    # or interactive version
@@ -259,10 +260,14 @@ Rebase
 Cherry Pick
 -----------
 
-::
+Pick a commit an apply it in the current branch as a new commit::
 
    $ git cherry-pick {SHA1}
 
+.. figure:: diagrams/svg/git-cherry-pick.svg
+   :height: 350px
+   :align: center
+   :class: centered
    
    
 Working with remote repositories
@@ -278,7 +283,7 @@ Working with remote repositories
 
 
 .. figure:: diagrams/svg/git-flows.svg
-   :width: 700px
+   :width: 100%
    :align: center
    :class: centered
    
@@ -299,6 +304,9 @@ Add a remote
    
 Diverging with remote
 ---------------------
+
+It's just more branches !
+
 
 .. figure:: diagrams/svg/git-branch-diverge-remote.svg
    :height: 350px
